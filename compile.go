@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/eaburns/peggy/peg"
-	"tulpa.dev/hlang/h"
+	"tulpa.dev/cadey/hlang/h"
 )
 
 var (
