@@ -139,7 +139,7 @@ const indexTemplate = `<html>
 
       <h2>Simple</h2>
 
-      <p>h has a <a href="https://github.com/Xe/x/blob/master/h/h.peg">simple grammar</a> that gzips to 117 bytes. Creating a runtime environment for h is so trivial just about anyone can do it.</p>
+      <p>h has a <a href="https://tulpa.dev/cadey/hlang/src/branch/master/h/h.peg">simple grammar</a> that gzips to 117 bytes. Creating a runtime environment for h is so trivial just about anyone can do it.</p>
 
       <hr />
 
@@ -179,7 +179,7 @@ const indexTemplate = `<html>
 
       <h2>Open-Source</h2>
 
-      <p>The h compiler and default runtime are <a href="https://github.com/Xe/x/tree/master/cmd/h">open-source</a> free software sent out into the <a href="https://creativecommons.org/choose/zero/">Public Domain</a>. You can use h for any purpose at all with no limitations or restrictions.</p>
+      <p>The h compiler and default runtime are <a href="https://tulpa.dev/cadey/hlang">open-source</a> free software sent out into the <a href="https://creativecommons.org/choose/zero/">Public Domain</a>. You can use h for any purpose at all with no limitations or restrictions.</p>
 
       <hr />
 

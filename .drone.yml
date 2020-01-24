@@ -1,0 +1,12 @@
+kind: pipeline
+name: default
+
+steps:
+- name: docker  
+  image: plugins/docker
+  settings:
+    username: xena
+    password:
+      from_secret: DOCKER_PASS
+    repo: xena/hlang
+    tags: latest
