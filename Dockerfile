@@ -1,4 +1,4 @@
-FROM xena/go:1.13.3 AS build
+FROM xena/go:1.15 AS build
 WORKDIR /hlang
 COPY . .
 RUN GOBIN=/usr/local/bin go install .
