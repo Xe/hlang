@@ -119,16 +119,16 @@ const wasmTemplate = `(module
        (local.set 2 (i32.const 39))
        {{ range . -}}
        {{ if eq . 32 -}}
-       (call $h (get_local 0))
+       (call $h (local.get 0))
        {{ end -}}
        {{ if eq . 104 -}}
-       (call $h (get_local 1))
+       (call $h (local.get 1))
        {{ end -}}
        {{ if eq . 39 -}}
-       (call $h (get_local 2))
+       (call $h (local.get 2))
        {{ end -}}
        {{ end -}}
-       (call $h (get_local 0))
+       (call $h (local.get 0))
  )
  (export "h" (func $h_main))
 )`
